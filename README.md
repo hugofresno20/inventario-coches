@@ -47,7 +47,7 @@ O sea, le pasás dos cosas:
 
 Esto lo usamos para, por ejemplo, cambiar automáticamente `producto.disponible` según el stock, sin tener que hacerlo manualmente todo el tiempo.
 
-### 2. ¿Cómo harías que un watch() detecte cambios en stock dentro de un array de productos?
+### 3. ¿Cómo harías que un watch() detecte cambios en stock dentro de un array de productos?
 Cuando tienes un array de objetos con reactive() (como una lista de productos), Vue no puede "mirar" todos los stock automáticamente.
 
 Entonces, lo que hay que hacer es recorrer el array y ponerle un watch() a cada producto individualmente, observando la propiedad `stock`.
